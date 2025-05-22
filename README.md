@@ -24,4 +24,3 @@ Aprofundar o conhecimento na linguagem Python, criando uma base sólida para apl
 ## 📂 Organização
 
 Os arquivos estão divididos por tema ou aula, com comentários explicativos para facilitar o entendimento.
-
