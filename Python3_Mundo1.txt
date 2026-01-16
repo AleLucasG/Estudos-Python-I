@@ -62,12 +62,17 @@
  
  Entenda como funciona um Interpretador e veja como o Python funciona. Depois aprenda como instalar o Python 3.0 e o IDLE em seu computador com Windows, Linux ou Mac OS.
  
- *** Baixando o interpretador do Python no Windows pela biblioteca, para uso no terminal de comando:CMD
-	- Python 3.13: The pythonj 3.13 interpreter and runtime
+ O IDLE do Python é o ambiente de desenvolvimento integrado (IDE) padrão que vem incluído em todas as instalações do Python, permitindo que você comece a programar imediatamente.
+ O IDLE permite abrir um "shell Python" onde você pode inserir comandos para o Python processar (ou "interpretar").
+ 
+ *** Baixando o interpretador do Python no Windows pelo Microsoft Store, para uso no terminal de comando:CMD
+	- Python 3.13: The python 3.13 interpreter and runtime
 	- Teste no CMD: Python.
 		- >>> print('Olá Mundo!')
-		
- Teste feito no CMF
+	- Teste no IDLE Shell ✓
+	
+
+---- Teste abaixo feito no CMF ----
 
 C:\Users\alessandra.gomes>python
 Python 3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)] on win32
@@ -101,11 +106,83 @@ Namespaces are one honking great idea -- let's do more of those!
 >>> 
 
 
+------------- Aula 4 – Primeiros comandos em Python3 -------------
+
+ Agora chegou a hora de aprender os comandos básicos do Python e fazer os primeiros programas em Linguagem Python.
+ 
+ Escrevendo uma mensagem na tela (instrução de texto)
+ - Delimitadores padrão: aspas simples (' ') ou aspas duplas (" "), usadas para textos.
+ - Todo texto deve ficar dentro de aspas.
+ - Toda função fica dentro de parênteses ().
+	print: comando usado para escrever algo na tela.
+ - Instrução: print('Hello, World!')
+
+ Escrevendo números
+ - Números são usados para efetuar cálculos.
+ - Usamos operações matemáticas: +, -, *, / etc.
+	print: comando para mostrar o resultado na tela.
+ - Instrução: print(7 + 4)
+ - Resultado exibido: 11
+
+ Juntando mensagens
+ - print('7' + '4')
+ - Resultado: 74
+ - * (Os valores estão entre aspas, então são textos.)
+ 
+ Mesclando dados
+ - print('Olá', 10, 'Novo!')
+ - Resultado: Olá 10 Novo!
+ 
+ Variaveis
+ - * Toda variável em Python é um objeto.
+ 
+ Representando uma variável com valor fixo
+	nome = 'Alessandra'
+	idade = 28
+	peso = 57.8
+	print(nome, 'tem', idade, 'anos e pesa', peso)
+	print('nome', idade, peso) ou 
+	print(nome, 'tem', idade, 'idade e pesa', peso)
+ Resultado: Alessandra tem 28 anos e pesa 57.8
+ 
+ Representando uma variável com valor flexível
+ - Função input(): usada para ler dados digitados pelo usuário.
+ 
+ Exemplo:
+	nome = input('Qual o seu nome? ')
+	idade = input('Qual a sua idade? ')
+	peso = input('Qual o seu peso? ')
+	print('nome', idade, peso) ou 
+	print(nome, 'tem', idade, 'anos de idade e pesa', peso, 'kilos.')
+ Resultado (exemplo):
+ Alessandra tem 28 anos de idade e pesa 57.8 kilos.
+
+ Observação: Todo arquivo Python possui a extensão .py.
+ 
+ Criando um script Python (Modo Programa)
+ 1. Criar uma pasta no desktop chamada scripts_python.
+ 2. Abrir o IDLE Shell → File → New File.
+ 3. Inserir os comandos:
+	nome = input('Qual o seu nome? ')
+	idade = input('Qual a sua idade? ')
+	peso = input('Qual o seu peso? ')
+	print(nome, idade, peso)
+ 4. Salvar o arquivo: File → Save → Pasta scripts_python → Nome do arquivo: teste01.py.
+ 5. Executar o script: Run → Run Module.
 -------------
 
 
 
 -------------
+
+
+-------------
+
+
+
+
+-------------
+
 
 
 
