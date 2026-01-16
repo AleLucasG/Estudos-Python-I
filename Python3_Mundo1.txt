@@ -1,0 +1,74 @@
+
+======== Python 3 - Mundo 1 ========
+
+------------- Introdução ao Mundo da Programação -------------
+------------- Aula 1 – Seja um Programador -------------
+
+ Você está pensando em ser um Programador e não sabe por onde começar? Pois nessa aula vamos te dar todas as informações e mostrar o caminho a seguir.
+ 
+------------- Primeiros passos com o Python -------------
+------------- Aula 2 – Para que serve o Python? -------------
+
+ De onde vem o Python?
+ O Python foi criado no final dos anos 1980 por Guido van Rossum, na Holanda. 
+ A primeira versão oficial surgiu em 1991.
+
+ Por que esse nome?
+ O nome Python não vem da cobra. Guido escolheu esse nome por causa do grupo de comédia britânico Monty Python, que ele gostava muito. 
+ Por isso, o Python tem exemplos e documentações com um tom mais descontraído.
+
+ Quais grandes empresas usam Python?
+ Python é usado por várias empresas grandes no mundo, como:
+ - Google
+ - Netflix
+ - Instagram
+ - YouTube
+ - Spotify
+ - Amazon
+ - Microsoft
+
+ Essas empresas usam Python para desenvolvimento de sistemas, automação, análise de dados, inteligência artificial e muito mais.
+ *** Linguagem de uso geral: simples, facil e intuitivo.
+ *** Multi-plataforma
+ *** Codigo aberto
+ 
+ “Batteries included”, em Python, quer dizer: Python já vem “pronto para usar”, com muitas bibliotecas e ferramentas incluídas por padrão.
+ Quando você instala o Python, ele já traz várias funcionalidades sem precisar instalar nada extra, como:
+ - trabalhar com arquivos
+ - datas e horas
+ - matemática
+ - listas, dicionários
+ - acesso a sistema operacional 
+ - internet, JSON, CSV, etc.
+ 
+ 
+ Python é POO (Programação Orientada a Objetos).
+ - Python suporta POO, mas não é só POO.
+ - Você pode programar em Python de forma:
+	- procedural (passo a passo),
+	- orientada a objetos (classes e objetos),
+	- e até funcional.
+
+ Em Python, tudo é objeto (números, strings, listas, funções etc.), o que facilita usar conceitos de POO como:
+	- classes
+	- objetos
+	- herança
+	- encapsulamento
+	- polimorfismo
+
+ Python é uma linguagem que suporta Programação Orientada a Objetos (POO), permitindo o uso de classes, objetos e outros conceitos desse paradigma.
+
+------------- Aula 3 – Instalando o Python3 e o IDLE -------------
+ 
+ Entenda como funciona um Interpretador e veja como o Python funciona. Depois aprenda como instalar o Python 3.0 e o IDLE em seu computador com Windows, Linux ou Mac OS
+
+
+-------------
+
+
+
+-------------
+
+
+
+-------------
