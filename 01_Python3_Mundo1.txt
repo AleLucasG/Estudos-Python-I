@@ -1,0 +1,203 @@
+
+======== Python 3 - Mundo 1 ========
+
+------------- Introdução ao Mundo da Programação -------------
+------------- Aula 1 – Seja um Programador -------------
+
+ Você está pensando em ser um Programador e não sabe por onde começar? Pois nessa aula vamos te dar todas as informações e mostrar o caminho a seguir.
+ 
+------------- Primeiros passos com o Python -------------
+------------- Aula 2 – Para que serve o Python? -------------
+
+ De onde vem o Python?
+ O Python foi criado no final dos anos 1980 por Guido van Rossum, na Holanda. 
+ A primeira versão oficial surgiu em 1991.
+
+ Por que esse nome?
+ O nome Python não vem da cobra. Guido escolheu esse nome por causa do grupo de comédia britânico Monty Python, que ele gostava muito. 
+ Por isso, o Python tem exemplos e documentações com um tom mais descontraído.
+
+ Quais grandes empresas usam Python?
+ Python é usado por várias empresas grandes no mundo, como:
+ - Google
+ - Netflix
+ - Instagram
+ - YouTube
+ - Spotify
+ - Amazon
+ - Microsoft
+
+ Essas empresas usam Python para desenvolvimento de sistemas, automação, análise de dados, inteligência artificial e muito mais.
+ *** Linguagem de uso geral: simples, facil e intuitivo.
+ *** Multi-plataforma
+ *** Codigo aberto
+ 
+ “Batteries included”, em Python, quer dizer: Python já vem “pronto para usar”, com muitas bibliotecas e ferramentas incluídas por padrão.
+ Quando você instala o Python, ele já traz várias funcionalidades sem precisar instalar nada extra, como:
+ - trabalhar com arquivos
+ - datas e horas
+ - matemática
+ - listas, dicionários
+ - acesso a sistema operacional 
+ - internet, JSON, CSV, etc.
+ 
+ 
+ Python é POO (Programação Orientada a Objetos).
+ - Python suporta POO, mas não é só POO.
+ - Você pode programar em Python de forma:
+	- procedural (passo a passo),
+	- orientada a objetos (classes e objetos),
+	- e até funcional.
+
+ Em Python, tudo é objeto (números, strings, listas, funções etc.), o que facilita usar conceitos de POO como:
+	- classes
+	- objetos
+	- herança
+	- encapsulamento
+	- polimorfismo
+
+ Python é uma linguagem que suporta Programação Orientada a Objetos (POO), permitindo o uso de classes, objetos e outros conceitos desse paradigma.
+
+------------- Aula 3 – Instalando o Python3 e o IDLE -------------
+ 
+ Entenda como funciona um Interpretador e veja como o Python funciona. Depois aprenda como instalar o Python 3.0 e o IDLE em seu computador com Windows, Linux ou Mac OS.
+ 
+ O IDLE do Python é o ambiente de desenvolvimento integrado (IDE) padrão que vem incluído em todas as instalações do Python, permitindo que você comece a programar imediatamente.
+ O IDLE permite abrir um "shell Python" onde você pode inserir comandos para o Python processar (ou "interpretar").
+ 
+ *** Baixando o interpretador do Python no Windows pelo Microsoft Store, para uso no terminal de comando:CMD
+	- Python 3.13: The python 3.13 interpreter and runtime
+	- Teste no CMD: Python.
+		- >>> print('Olá Mundo!')
+	- Teste no IDLE Shell ✓
+	
+
+---- Teste abaixo feito no CMF ----
+
+C:\Users\alessandra.gomes>python
+Python 3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2+5
+7
+>>> print('Te amo Thi!')
+Te amo Thi!
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> 
+
+
+------------- Aula 4 – Primeiros comandos em Python3 -------------
+
+ Agora chegou a hora de aprender os comandos básicos do Python e fazer os primeiros programas em Linguagem Python.
+ 
+ Escrevendo uma mensagem na tela (instrução de texto)
+ - Delimitadores padrão: aspas simples (' ') ou aspas duplas (" "), usadas para textos.
+ - Todo texto deve ficar dentro de aspas.
+ - Toda função fica dentro de parênteses ().
+	print: comando usado para escrever algo na tela.
+ - Instrução: print('Hello, World!')
+
+ Escrevendo números
+ - Números são usados para efetuar cálculos.
+ - Usamos operações matemáticas: +, -, *, / etc.
+	print: comando para mostrar o resultado na tela.
+ - Instrução: print(7 + 4)
+ - Resultado exibido: 11
+
+ Juntando mensagens
+ - print('7' + '4')
+ - Resultado: 74
+ - * (Os valores estão entre aspas, então são textos.)
+ 
+ Mesclando dados
+ - print('Olá', 10, 'Novo!')
+ - Resultado: Olá 10 Novo!
+ 
+ Variaveis
+ - * Toda variável em Python é um objeto.
+ 
+ Representando uma variável com valor fixo
+	nome = 'Alessandra'
+	idade = 28
+	peso = 57.8
+	print(nome, 'tem', idade, 'anos e pesa', peso)
+	print('nome', idade, peso) ou 
+	print(nome, 'tem', idade, 'idade e pesa', peso)
+ Resultado: Alessandra tem 28 anos e pesa 57.8
+ 
+ Representando uma variável com valor flexível
+ - Função input(): usada para ler dados digitados pelo usuário.
+ 
+ Exemplo:
+	nome = input('Qual o seu nome? ')
+	idade = input('Qual a sua idade? ')
+	peso = input('Qual o seu peso? ')
+	print('nome', idade, peso) ou 
+	print(nome, 'tem', idade, 'anos de idade e pesa', peso, 'kilos.')
+ Resultado (exemplo):
+ Alessandra tem 28 anos de idade e pesa 57.8 kilos.
+
+ Observação: Todo arquivo Python possui a extensão .py.
+ 
+ Criando um script Python (Modo Programa)
+ 1. Criar uma pasta no desktop chamada scripts_python.
+ 2. Abrir o IDLE Shell → File → New File.
+ 3. Inserir os comandos:
+	nome = input('Qual o seu nome? ')
+	idade = input('Qual a sua idade? ')
+	peso = input('Qual o seu peso? ')
+	print(nome, idade, peso)
+ 4. Salvar o arquivo: File → Save → Pasta scripts_python → Nome do arquivo: teste01.py.
+ 5. Executar o script: Run → Run Module.
+ 
+ Desafios
+ I. Crie um script Python que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas de acordo com o valor digitado.
+ II. Crie um script Python que leia o dia, o mês e o ano de nascimento de uma pessoa e mostre uma mensagem com a data formartada.
+ III. Crie um script Python que leia dois números e tente mostrar a soma entre eles.
+ 
+------------- Aula 5 – Instalando o PyCharm e o QPython3
+
+ google.com/search?q=PyCharm+no+Window&rlz=1C1GCEA_enBR1164BR1164&oq=py&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYOzIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPNIBCDI5NTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+
+------------- Exercício 1 – Deixando tudo pronto -------------
+
+------------- Exercício 2 – Respondendo ao Usuário -------------
+
+Exercício Python 2: Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
+
+
+------------- Tratando dados e fazendo contas -------------
+---------- Aula 6 – Tipos Primitivos e Saída de Dados ----------
+
+ Nessa aula, vamos aprender como funcionam os tipos primitivos no Python e as peculiaridades do int() float() bool() e str(). Além disso, veremos como fazer as primeiras operações com a função print() do Python.
+
+
+
+
+-------------
+
+
+
+
+-------------
