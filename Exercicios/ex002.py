@@ -1,0 +1,6 @@
+print()
+print('Desafio 002:Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas.')
+print()
+nome = input('Por favor, qual seu nome: ')
+print('Bem vindo(a)', nome, 'ao curso de Python!')
+print('Bem vindo(a) {} ao curso de Python!'.format(nome))
