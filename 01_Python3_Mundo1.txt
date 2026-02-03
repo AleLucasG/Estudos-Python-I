@@ -192,9 +192,47 @@ Exercício Python 2: Faça um programa que leia o nome de uma pessoa e mostre um
 
  Nessa aula, vamos aprender como funcionam os tipos primitivos no Python e as peculiaridades do int() float() bool() e str(). Além disso, veremos como fazer as primeiras operações com a função print() do Python.
 
+ Variavel: valor1 = int(input('Primeiro número: '))
+ Leitura:
+	- 'Primeiro número: ' → mensagem exibida ao usuário (string).
+	- input() → lê a informação digitada pelo usuário (retorna uma string).
+	- int() → converte o valor digitado (que veio como string) para número inteiro.
+	- valor1 → variável que recebe o valor inteiro convertido.
+	
+ O input() lê o valor digitado como texto e o int() converte esse valor para número inteiro.
 
+ Tipos primitivos básicos:
+ - int (inteiro): 7, -47, 0, 9875
+ - float (números reais ou ponto flutuante): 4.0, 0.076, -15.223, 7.0
+ - bool (boleano/valores logicos): true / false.
+ - str: caracteres ou string (texto):'olá'. '0.7', 'true'.
+ 
+ Metodo .format()
+ O .format() é um método usado para inserir valores dentro de um texto (string) de forma organizada.
+ Ele serve para formatar mensagens, substituindo {} pelos valores que você informar.
+ 
+ Para que ele é usado?
+ - Evita concatenar strings com +
+ - Deixa o código mais legível
+ - Permite controlar a forma como o texto aparece
+ 
+ Resultado:
+ {} → espaço reservado
+ .format(nome, idade) → valores que vão substituir os {} na ordem
 
-
+ Observação importante:
+ Hoje em dia, o Python usa muito f-strings, mas o .format() ainda é importante e muito usado em códigos existentes.
+ print(f'Meu nome é {nome} e tenho {idade} anos')
+ 
+ nome = 'Alessandra'
+ idade = 28
+ print('Meu nome é {} e tenho {} anos'.format(nome, idade))
+ print('Tenho {0} anos e me chamo {1}'.format(28, 'Alessandra'))
+ print(f'Meu nome é {nome} e tenho {idade} anos')
+ 
+ Ex: Desafio 003: Crie um programa que leia dois números e mostre a soma entre eles.
+     Desafio 004: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
+ 
 -------------
 
 
