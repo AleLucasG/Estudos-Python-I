@@ -114,7 +114,7 @@ Namespaces are one honking great idea -- let's do more of those!
  - Delimitadores padrão: aspas simples (' ') ou aspas duplas (" "), usadas para textos.
  - Todo texto deve ficar dentro de aspas.
  - Toda função fica dentro de parênteses ().
-	print: comando usado para escrever algo na tela.
+   >>>print(''): comando usado para escrever algo na tela.
  - Instrução: print('Hello, World!')
 
  Escrevendo números
@@ -226,9 +226,26 @@ Exercício Python 2: Faça um programa que leia o nome de uma pessoa e mostre um
  
  nome = 'Alessandra'
  idade = 28
+ print('Meu nome é',nome, 'e tenho',idade, 'anos')
  print('Meu nome é {} e tenho {} anos'.format(nome, idade))
  print('Tenho {0} anos e me chamo {1}'.format(28, 'Alessandra'))
  print(f'Meu nome é {nome} e tenho {idade} anos')
+ 
+ 
+ Conceito importante sobre tipos primitivod
+ - input() → sempre retorna str
+ - int(input()) → converte o valor digitado para inteiro
+ - O tipo primitivo não é automático, você precisa informar (int, float, str, etc.)
+ 
+ # Para saber o tipo primitivo de uma variável
+ n = input('Digite algo: ')
+ print(type(n))
+ print()
+
+ # O tipo primitivo deve ser especificado
+ n1 = int(input('Digite algo: '))
+ print(type(n1))
+ print()
  
  Ex: Desafio 003: Crie um programa que leia dois números e mostre a soma entre eles.
      Desafio 004: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
