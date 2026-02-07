@@ -232,7 +232,7 @@ Exercício Python 2: Faça um programa que leia o nome de uma pessoa e mostre um
  print(f'Meu nome é {nome} e tenho {idade} anos')
  
  
- Conceito importante sobre tipos primitivod
+ Conceito importante sobre tipos primitivo:
  - input() → sempre retorna str
  - int(input()) → converte o valor digitado para inteiro
  - O tipo primitivo não é automático, você precisa informar (int, float, str, etc.)
@@ -248,11 +248,93 @@ Exercício Python 2: Faça um programa que leia o nome de uma pessoa e mostre um
  print()
  
  Ex: Desafio 003: Crie um programa que leia dois números e mostre a soma entre eles.
-     Desafio 004: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
  
+    Desafio 004: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
+	print('Desafio 004: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.')
+	print()
+	valor = input('Informe um valor, para saber o seu tipo primitivo: ')
+	print('O tipo primitivo desse valor é', type(valor))
+	print('O tipo primitivo desse valor é', type(valor))
+	print('É alfabético:', valor.isalpha())
+	print('É alfanumérico:', valor.isalnum())
+	print('É um número:', valor.isnumeric())
+	print('É um numero decimal:', valor.isdecimal())
+	print('Esta em letras maiúsculas:', valor.isupper())
+	print('Esta em letras minúsculas:', valor.islower())
+	print('Esta capitalizada:', valor.istitle())
+ 
+------------- Exercício 3 – Somando dois números -------------
+
+------------- Exercício 4 – Dissecando uma Variável -------------
+
+------------- Aula 7 – Operadores Aritméticos -------------
+
+ Nessa aula, vamos aprender quais são os operadores aritméticos do Python e também sua ordem de precedência dentro de expressões matemáticas. 
+ Veja como funcionam os operadores de adição, subtração, multiplicação, divisão, exponenciação e quociente na linguagem Python.
+ 
+ Operadores aritmeticos
+ + soma
+	- 5 + 2 = 7
+ - adição
+	- 5 - 2 = 3
+ * multiplicação
+	- 5 * 2 = 10
+ / divisão
+	- 5 /  = 2.1 (float)
+ ** potência
+	- 5 ** 2 = 25
+ // divisão inteira
+	- 5 // 2 = 2 (5 / 2 = 2.1)
+ % resto da divisão
+	- 5 % 2 = 1 (5 / 2 = 2.1)
+	
+ Ordem de procedência
+ 1: ()
+ 2: **
+ 3: *, /, //, %
+ 4: +, -
+ 
+ Ex: 5 + 3 * 2 = 11
+	 3 * 5 + 4 ** 2 = 15 + 16 = 31
+	 3 * (5 + 4) ** 2 = 3 * 9 ** 2 = 3 * 81 = 243
+	 
+ Explicação rápida das formatações
+ {} → imprime o valor normalmente
+ {:20} → reserva 20 espaços para o texto
+ {:>20} → alinha à direita
+ {:<20} → alinha à esquerda
+ {:^20} → centraliza
+ {:=^20} → centraliza e preenche os espaços com =	 
+ 
+ end=' '
+ O parâmetro end define como o print() termina a linha.
+ Por padrão, todo print() termina com uma quebra de linha (\n), ou seja, o próximo print vai para a linha de baixo.	 
+ 
+ Exemplo:
+ print(
+  'Resultados: soma: {}, subtração: {}, multiplição: {} e divisão: {}'
+  .format(soma, sub, mult, div),
+  end=' '
+ )
+ print(
+  'potencia: {}, divisao inteira {}, resto da divisão {}'
+  .format(potencia, divisaointeira, rest)
+ )
+ 
+ O que acontece:
+ - end=' ' → não pula para a próxima linha
+ - Em vez disso, o print termina com um espaço
+ - O próximo print() continua na mesma linha
+
+ Resumo
+ O parâmetro end define o que será colocado no final do print(). 
+ Usando end=' ', o próximo print() continua na mesma linha.
+ 
+ Quebra de linha = \n
 -------------
 
 
+-------------
 
 
 -------------
