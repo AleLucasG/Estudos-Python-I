@@ -181,11 +181,10 @@ Namespaces are one honking great idea -- let's do more of those!
 
 
 ------------- Exercício 1 – Deixando tudo pronto -------------
+ Nesse vídeo, mostraremos como criar um projeto Python no PyCharm e deixar tudo preparado para receber os exercícios da série, que vão utilizar o mesmo projeto.
 
 ------------- Exercício 2 – Respondendo ao Usuário -------------
-
-Exercício Python 2: Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
-
+ Exercício Python 2: Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
 
 ------------- Tratando dados e fazendo contas -------------
 ---------- Aula 6 – Tipos Primitivos e Saída de Dados ----------
@@ -264,8 +263,10 @@ Exercício Python 2: Faça um programa que leia o nome de uma pessoa e mostre um
 	print('Esta capitalizada:', valor.istitle())
  
 ------------- Exercício 3 – Somando dois números -------------
+ Exercício Python 3: Crie um programa que leia dois números e mostre a soma entre eles.
 
 ------------- Exercício 4 – Dissecando uma Variável -------------
+ Exercício Python 4: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
 
 ------------- Aula 7 – Operadores Aritméticos -------------
 
@@ -331,8 +332,20 @@ Exercício Python 2: Faça um programa que leia o nome de uma pessoa e mostre um
  Usando end=' ', o próximo print() continua na mesma linha.
  
  Quebra de linha = \n
--------------
+ 
+ Ex006, ex007, ex008, ex009
+ 
+------------- Exercício 5 – Antecessor e Sucessor -------------
+ Exercício Python 5: Faça um programa que leia um número Inteiro e mostre na tela o seu sucessor
 
+------------- Exercício 6 – Dobro, Triplo, Raiz Quadrada -------------
+ Exercício Python 006: Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+
+------------- Exercício 7 – Média Aritmética -------------
+ Exercício Python 7: Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
+
+------------- Exercício 8 – Conversor de Medidas -------------
+ Exercício Python 8: Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
 
 -------------
 
