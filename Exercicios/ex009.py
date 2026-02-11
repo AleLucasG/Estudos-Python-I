@@ -14,7 +14,7 @@ print('{} x 7 = {}'.format(valor, valor * 7))
 print('{} x 8 = {}'.format(valor, valor * 8))
 print('{} x 9 = {}'.format(valor, valor * 9))
 print('{} x 10 = {}'.format(valor, valor * 10))
-print()
+print('=' * 20)
 
 # com variável
 valor0 = valor * 0
