@@ -20,6 +20,7 @@ Aprofundar o conhecimento na linguagem Python, criando uma base sólida para apl
 
 - Python 3.x
 - Visual Studio Code (IDE utilizada nos estudos)
+- PyCharm
 
 ## 📂 Organização
 
