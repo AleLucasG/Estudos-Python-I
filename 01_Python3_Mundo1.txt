@@ -347,7 +347,24 @@ Namespaces are one honking great idea -- let's do more of those!
 ------------- Exercício 8 – Conversor de Medidas -------------
  Exercício Python 8: Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
 
--------------
+------------- Exercício 9 – Tabuada -------------
+ Exercício Python 9: Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
+
+------------- Exercício 10 – Conversor de Moedas -------------
+ Exercício Python 10: Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
+
+------------- Exercício 11 – Pintando Parede -------------
+ Exercício Python 11: Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária 
+para pintá-la, sabendo que cada litro de tinta pinta uma área de 2 metros quadrados.
+
+------------- Exercício 12 – Calculando Descontos -------------
+ Exercício Python 12: Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+
+------------- Exercício 13 – Reajuste Salarial -------------
+ Exercício Python 13: Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
+
+------------- Exercício 14 – Conversor de Temperaturas -------------
+ Exercício Python 14: Escreva um programa que converta uma temperatura digitando em graus Celsius e converta para graus Fahrenhei
 
 
 -------------
