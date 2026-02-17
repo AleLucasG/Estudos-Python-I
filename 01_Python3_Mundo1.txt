@@ -366,5 +366,160 @@ para pintá-la, sabendo que cada litro de tinta pinta uma área de 2 metros quad
 ------------- Exercício 14 – Conversor de Temperaturas -------------
  Exercício Python 14: Escreva um programa que converta uma temperatura digitando em graus Celsius e converta para graus Fahrenhei
 
+------------- Exercício 15 – Aluguel de Carros -------------
+ Exercício Python 15: Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. 
+ Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
 
--------------
+------------- Aula 8 – Utilizando Módulos -------------
+
+ Nessa aula, vamos aprender como utilizar módulos em Python utilizando os comandos import e from/import no Python. 
+ Veja como carregar bibliotecas de funções e utilizar vários recursos adicionais nos seus programas utilizando módulos built-in e módulos externos, oferecidos no Pypi.
+
+ Podemos carregar bibliotecas com funções prontas e utilizar recursos adicionais em nossos programas, seja com:
+ - módulos built-in (que já vêm com o Python)
+ - módulos externos, instalados pelo PyPI
+ 
+ Formas de importação
+ 📌 Importação geral (importa o módulo inteiro)
+ import bebida
+ 
+ Depois usamos assim:
+ bebida.cafe()
+ 👉 Aqui estamos importando tudo do módulo.
+ 
+ 📌 Importação específica (importa apenas algo do módulo)
+ from doce import pudim
+ 
+ Agora podemos usar direto:
+ pudim()
+ 👉 Aqui estamos importando somente o que precisamos.
+ 
+ 
+ A biblioteca math é um módulo built-in do Python que traz funções matemáticas prontas.
+ 
+ 📌 Para usar
+ import math
+ 
+ Ou importar específico: from math import sqrt(square root (raiz quadrada, em inglês))
+ 
+ 🔢 Principais funções da math
+ 🔹 Raiz quadrada
+ math.sqrt(25)   # 5.0
+ 
+ 🔹 Arredondamentos
+ math.ceil(4.3)   # arredonda para cima → 5
+ math.floor(4.7)  # arredonda para baixo → 4
+ math.trunc(4.7)  # corta a parte decimal → 4
+ 
+ 🔹 Potência
+ math.factorial(5)   # 120
+ 
+ 🔹 Valor absoluto
+ math.fabs(-10)   # 10.0
+ 
+ 🔹 Constantes importantes
+ math.pi   # 3.141592...
+ math.e    # 2.71828...
+ 
+ 🔹 Funções trigonométricas
+ math.sin(x)
+ math.cos(x)
+ math.tan(x)
+ 
+ 📌 Exemplo completo
+ import math
+
+ num = float(input('Digite um número: '))
+ raiz = math.sqrt(num)
+ print(f'A raiz de {num} é {raiz:.2f}')
+ 
+------------- Exercício 16 – Quebrando um número -------------
+ Exercício Python 16: Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
+
+------------- Exercício 17 – Catetos e Hipotenusa -------------
+ Exercício Python 17: Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa.
+
+------------- Exercício 18 – Seno, Cosseno e Tangente -------------
+ Exercício Python 18: Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
+
+------------- Exercício 19 – Sorteando um item na lista -------------
+ Exercício Python 19: Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome dos alunos e escrevendo na tela o nome do escolhido.
+
+------------- Exercício 20 – Sorteando uma ordem na lista  -------------
+ Exercício Python 20: O mesmo professor do desafio 19 quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
+
+------------- Exercício 21 – Tocando um MP3 -------------
+ Exercício Python 21: Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
+ 
+ 👉 Python 3.14 ainda NÃO tem suporte oficial para pygame.
+
+------------- Aula 9 – Manipulando Texto -------------
+ Nessa aula, vamos aprender operações com String no Python. 
+ As principais operações que vamos aprender são o Fatiamento de String, Análise com len(), count(), find(), transformações com replace(), upper(), lower(), capitalize(), title(), strip(), junção com join().
+
+ nome = "Alessandra Lucas gomes"
+ 
+ 🔹 📌 Fatiamento (Slicing)
+ print(nome[0])          # Primeira letra
+ print(nome[0:10])       # Do índice 0 até 9
+ print(nome[:10])        # Do início até 9
+ print(nome[11:17])      # "Lucas"
+ print(nome[11:])        # Do 11 até o final
+ print(nome[::2])        # Pulando de 2 em 2
+ 
+ 🔹 📌 Análise
+ ✅ len()
+ print(len(nome))        # Quantidade de caracteres
+ 
+ ✅ count()
+ print(nome.count('a'))  # Quantas letras "a"
+ 
+ ✅ find()
+ print(nome.find('Lucas'))  # Posição onde começa "Lucas"
+ print(nome.find('Maria'))  # -1 (não existe)
+ 
+ 🔹 📌 Transformações
+ ✅ replace()
+ print(nome.replace('gomes', 'Silva'))
+ 
+ ✅ upper()
+ print(nome.upper())
+ 
+ ✅ lower()
+ print(nome.lower())
+ 
+ ✅ capitalize()
+ print(nome.capitalize())
+
+ ✅ title()
+ print(nome.title())
+ 
+ ✅ strip()
+ nome2 = "   Alessandra Lucas gomes   "
+ print(nome2.strip())
+ 
+ 🔹 📌 Junção com join()
+ print('-'.join(nome))
+ resutado: A-l-e-s-s-a-n-d-r-a- -L-u-c-a-s- -g-o-m-e-s
+ 
+ 🎯 Extra útil (muito usado)
+ Separar o nome: print(nome.split())
+ Primeiro nome: print(nome.split()[0])
+ Último nome: print(nome.split()[-1])
+
+
+
+
+
+
+
+
+-------------   -------------
+
+
+-------------   -------------
+
+
+-------------   -------------
+
+-------------   -------------
