@@ -1,5 +1,5 @@
 # Aula 9 – Manipulando Texto (VERSÃO COMPLETA)
-
+print()
 texto = input('Digite seu nome completo: ')
 
 print('\n🔎 ===== ANÁLISE =====')
@@ -14,6 +14,7 @@ print(f'Termina com "gomes"? {texto.endswith("gomes")}')
 print(f'Só tem letras? {texto.isalpha()}')
 print(f'É alfanumérico? {texto.isalnum()}')
 print(f'Só tem espaços? {texto.isspace()}')
+print(f'Quantas letras tem o primeiro nome: {texto.find(' ')} letras ')
 
 print('\n🔄 ===== TRANSFORMAÇÕES =====')
 
