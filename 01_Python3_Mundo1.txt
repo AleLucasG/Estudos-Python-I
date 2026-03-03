@@ -532,13 +532,127 @@ para pintá-la, sabendo que cada litro de tinta pinta uma área de 2 metros quad
 ------------- Exercício 27 – Primeiro e último nome de uma pessoa -------------
  Exercício Python 27: Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
 
+------------- Aula 10 – Condições (Parte 1) -------------
 
--------------   -------------
+ Nessa aula, vamos aprender como utilizar estruturas condicionais simples e compostas nos seus programas em Python.
+ 
+ 🧠 O que é uma Condição?
+ É quando o programa precisa tomar uma decisão.
+ 
+ Tipo:
+ "Se acontecer isso → faça aquilo
+ Senão → faça outra coisa"
+ 
+ 📌 Estrutura básica no Python:
+ if condição:
+    bloco True
+ else:
+    bloco False
+	
+ 🚗 Exemplo explicado
+ if carro.esquerda():
+	bloco True
+ else:
+	bloco False
+	
+ //	
+ 
+ carro = input("O carro virou para a esquerda? (s/n): ")
 
+ if carro == "s":
+    print("O carro virou à esquerda.")
+ else:
+    print("O carro NÃO virou à esquerda.")
 
--------------   -------------
+-------------  Exercício 28 – Jogo da Adivinhação v.1.0  -------------
+ Exercício Python 28: Escreva um programa que faça o computador “pensar” em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. 
+ O programa deverá escrever na tela se o usuário venceu ou perdeu.
+ 
+ 🎲 O que é random no Python?
+ random é um módulo (biblioteca padrão do Python) usado para gerar valores aleatórios.
 
+ Ele já vem instalado no Python.
+ Você só precisa importar: import random
+ 
+ 🔢 Funções mais usadas
+ 
+ 🎯 Número inteiro aleatório
+ import random
 
+ numero = random.randint(1, 10)
+ print(numero)
+
+ ✔ Gera número entre 1 e 10
+ ✔ Inclui 1 e 10
+ 
+ 🎯 Número decimal aleatório
+ import random
+
+ numero = random.random()
+ print(numero)
+ 
+ ✔ Gera número entre 0.0 e 1.0
+ 
+ 🎯 Escolher item de uma lista
+ import random
+
+ nomes = ["Ana", "Carlos", "Lucas"]
+ escolhido = random.choice(nomes)
+
+ print(escolhido)
+ ✔ Escolhe um item aleatório da lista
+ 
+ 🎯 Embaralhar lista
+ import random
+
+ lista = [1, 2, 3, 4, 5]
+ random.shuffle(lista)
+
+ print(lista)
+ ✔ Mistura a ordem dos elementos
+ 
+ 🧠 Para que usamos?
+ - Jogos 🎮
+ - Sorteios 🎲
+ - Simulações
+ - Testes
+ - Criar senhas
+ - Inteligência artificial
+ 
+ 
+ ⏳ O que é o sleep() no Python?
+ O sleep() serve para pausar o programa por alguns segundos.
+ Ele fica dentro do módulo time.
+ 
+ import time
+ time.sleep(segundos)
+ 
+ Exemplo simples:
+ import time
+
+ print("Iniciando...")
+ time.sleep(3)
+ print("3 segundos depois...")
+ 
+ Pode usar número decimal: time.sleep(1.5)
+ 
+ 🎮 Exemplo mais legal (efeito visual)
+ import time
+
+ print("Carregando")
+ time.sleep(1)
+ print(".")
+ time.sleep(1)
+ print(".")
+ time.sleep(1)
+ print("Pronto!")
+ 
+ 🧠 Para que usamos?
+ Criar efeito de animação
+ Simular processamento
+ Jogos
+ Sistemas que precisam esperar resposta
+ Evitar sobrecarregar requisições
 
 -------------   -------------
 
